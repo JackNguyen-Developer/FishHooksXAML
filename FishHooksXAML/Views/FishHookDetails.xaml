@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FishHooksXAML.Views.FishHookDetails" Title="{Binding HookName}" >
+	<ContentPage.Content>
+		<ScrollView  Padding="20">
+			<StackLayout VerticalOptions="FillAndExpand" Spacing="10">
+				<Label Text="Best user for:" />
+				<Label Text="{Binding BestSpecies}" />
+				<Label Text="Hook details:" />
+				<Label Text="{Binding HookDetails}" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
