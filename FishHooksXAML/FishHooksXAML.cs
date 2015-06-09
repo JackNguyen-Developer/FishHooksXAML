@@ -25,6 +25,7 @@ namespace FishHooksXAML
 			};
 			**/
 			MainPage = GetMainPage ();
+
 		}
 
 		public static Page GetMainPage()

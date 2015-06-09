@@ -6,7 +6,8 @@
 				<Label Text="Best user for:" />
 				<Label Text="{Binding BestSpecies}" />
 				<Label Text="Hook details:" />
-				<Label Text="{Binding HookDetails}" />
+				<Label Text="{Binding HookDetails}" x:Name="myLabel"/>
+				<Button Text="Next" x:Name="Click" VerticalOptions="EndAndExpand" />
 			</StackLayout>
 		</ScrollView>
 	</ContentPage.Content>
